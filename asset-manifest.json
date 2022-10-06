@@ -1,22 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ef4f4402.css",
-    "main.js": "/portfolio/static/js/main.d9552b9e.js",
+    "main.css": "/portfolio/static/css/main.74c570db.css",
+    "main.js": "/portfolio/static/js/main.08985485.js",
     "static/js/787.a30fef35.chunk.js": "/portfolio/static/js/787.a30fef35.chunk.js",
     "static/media/profile2.jpg": "/portfolio/static/media/profile2.d2e79abc860c4c763179.jpg",
+    "static/media/openhouse5.PNG": "/portfolio/static/media/openhouse5.09c0c157423761cd076f.PNG",
     "static/media/hero.jpg": "/portfolio/static/media/hero.0e0d55bc5025d9c1e502.jpg",
+    "static/media/takeABreak3.PNG": "/portfolio/static/media/takeABreak3.59aa05b7dcf9e8c52aea.PNG",
+    "static/media/takeABreak.PNG": "/portfolio/static/media/takeABreak.56bc8a409a2cd196db51.PNG",
+    "static/media/openhouse6.PNG": "/portfolio/static/media/openhouse6.dc473bf7bb5e7831a06c.PNG",
+    "static/media/openhouse8.PNG": "/portfolio/static/media/openhouse8.ee906c7871f399e82ece.PNG",
+    "static/media/takeABreak2.PNG": "/portfolio/static/media/takeABreak2.541f36f11da2cb0918ef.PNG",
+    "static/media/webPage3.PNG": "/portfolio/static/media/webPage3.cbd6de3f92472a169d4d.PNG",
     "static/media/Shafinaz_Shafique_Resume.pdf": "/portfolio/static/media/Shafinaz_Shafique_Resume.73a5435a19a047903506.pdf",
+    "static/media/recipeSearchApp.png": "/portfolio/static/media/recipeSearchApp.043d7f1b0d56b70e1d65.png",
+    "static/media/webPage4.PNG": "/portfolio/static/media/webPage4.af051e950bf694792fac.PNG",
+    "static/media/oneStopStore.png": "/portfolio/static/media/oneStopStore.aeb8b0ee4e613c5d5244.png",
+    "static/media/sudoku.png": "/portfolio/static/media/sudoku.c32f8367e8a060a95603.png",
+    "static/media/openhouse7.PNG": "/portfolio/static/media/openhouse7.2bc932754267093b013c.PNG",
     "static/media/github.svg": "/portfolio/static/media/github.5eea8d098341705b9ee72871409ae73d.svg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.f40410445e859153f9822ead79adc02e.svg",
     "static/media/school_black.svg": "/portfolio/static/media/school_black.21ca7ab520a1ea15151746ca99434c67.svg",
     "static/media/menu_white.svg": "/portfolio/static/media/menu_white.f8235882574e17fb850f4c89f02d8fe3.svg",
-    "main.ef4f4402.css.map": "/portfolio/static/css/main.ef4f4402.css.map",
-    "main.d9552b9e.js.map": "/portfolio/static/js/main.d9552b9e.js.map",
+    "main.74c570db.css.map": "/portfolio/static/css/main.74c570db.css.map",
+    "main.08985485.js.map": "/portfolio/static/js/main.08985485.js.map",
     "787.a30fef35.chunk.js.map": "/portfolio/static/js/787.a30fef35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4f4402.css",
-    "static/js/main.d9552b9e.js"
+    "static/css/main.74c570db.css",
+    "static/js/main.08985485.js"
   ]
 }
