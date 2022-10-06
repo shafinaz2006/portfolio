@@ -11,12 +11,14 @@ export const educationData = [
     title:'BrainStation',
     desc: 'Diploma in Web Development',
     date: 'Jan 2021 – Apr 2021'
-  },{
+  },
+  {
     id: 2,
     title:'University of Toronto',
     desc: 'M.Engg, Electrical & Computer Engineering',
     date: 'Jan 2015 – Jun 2016'
-  },{
+  },
+  {
     id: 3,
     title:'Bangladesh University of Engineering & Technology',
     desc: 'B.Sc.Engg, Electrical & Electronic Engineering',
@@ -25,7 +27,6 @@ export const educationData = [
 ];
 
 export const projectData = [
-  
   {
     id: 2,
     title: 'Take a break',

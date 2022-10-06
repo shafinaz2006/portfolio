@@ -1,5 +1,5 @@
 .nav {
-  background-color: #006d77;
+  background-color: var(--color-green);
   position: fixed;
   top: 0;
   width: 100%;
@@ -25,7 +25,6 @@
   text-decoration: none;
   margin-bottom: 1rem;
 }
-
 .nav__menu {
   padding-right: 1.5rem;
   cursor: pointer;
@@ -46,13 +45,6 @@
 }
 .nav__tablet {
   display: none;
-  /* @include tablet {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          padding-right: 2rem;
-      } */
 }
 .nav__link:link,
 .nav__link:visited,
@@ -96,6 +88,4 @@
   color: white;
   font-size: 0.9rem;
 }
-.hello {
-  color: red;
-}
+
