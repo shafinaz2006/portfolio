@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import menu_icon from '../../Assets/icons/menu_white.svg';
-import resume from '../../Assets/Shafinaz_Shafique_Resume.pdf';
+import resume from '../../Assets/Shafinaz_Shafique.pdf';
 import './style.css';
 
 const Navbar = () => {

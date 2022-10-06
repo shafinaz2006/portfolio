@@ -70,7 +70,7 @@ export const projectData = [
   {
     id: 1,
     title: 'OPEN HOUSE',
-    description: 'OPEN HOUSE is a platform for home buyers, sellers and professionals related to the real estate industry.',
+    description: 'Platform for home buyers, sellers and professionals related to the real estate industry.',
     codeLink: 'https://github.com/shafinaz2006/shafinaz-open-house-app',
     linkName: 'View Code',
     img: ['openhouse6.PNG',]
