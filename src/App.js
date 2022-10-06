@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Intro from './Components/Intro';
+import Projects from './Components/Projects';
+import Education from './Components/Education';
+import { useEffect } from 'react';
+import { addAnalytics } from './data/gaHelper';
 import './App.css';
 
 function App() {
+  useEffect(() =>{
+    addAnalytics();
+  }, []);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="App">
+      <Header />
+      <Intro />
+      <Projects />
+      <Education />
+      <Footer />
     </div>
   );
 }

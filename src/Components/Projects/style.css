@@ -1,0 +1,47 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--color-secondary-text);
+}
+.project__subHeading {
+  margin-bottom: 0.75rem;
+}
+.project__gitLink {
+  margin-bottom: 2rem;
+}
+.project__imgGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project__pic {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+@media (min-width: 750px) {
+  .project__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .project{
+    width: 30%;
+  }
+  .project__pic{
+    width: 80%;
+    margin-top: 2rem;
+
+  }
+}
