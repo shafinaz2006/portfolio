@@ -13,7 +13,7 @@ const Project = ({ project }) => {
       >
         {project.linkName}
       </a>
-      <img className="project__pic" src={project.img[0]} alt="project pic" />
+      <img className="project__pic" src={require('../../Assets/projectImages/' + project.img[0])} alt="project pic" />
     </div>
   );
 };

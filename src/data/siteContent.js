@@ -25,45 +25,14 @@ export const educationData = [
 ];
 
 export const projectData = [
-  {
-    id: 1,
-    title: 'OPEN HOUSE',
-    description: 'OPEN HOUSE is a platform for home buyers, sellers and professionals related to the real estate industry.',
-    codeLink: 'https://github.com/shafinaz2006/shafinaz-open-house-app',
-    linkName: 'View Code',
-    img: ['../images/openhouse6.PNG',]
-  },
+  
   {
     id: 2,
     title: 'Take a break',
     description: 'A responsive application to choose favourite books from New York Times bestsellers API and movies from IMDB API.',
     codeLink: 'https://shafinaz2006.github.io/Take-a-Break/#/',
     linkName: 'View Page',
-    img: ['/images/takeABreak2.PNG',]
-  },
-  {
-    id: 3,
-    title: 'Professional Webpage',
-    description: 'A professional webpage that is responsive for all devices (mobile, tablet and desktop).',
-    codeLink: 'https://faculty.tru.ca/jtomal/',
-    linkName: 'View Page',
-    img: ['/images/webPage4.PNG',],
-  },
-  {
-    id: 4,
-    title: 'One Stop Shop',
-    description: 'Online store for shopping',
-    codeLink: 'https://shafinaz2006.github.io/one-stop-shop/',
-    linkName: 'View Page',
-    img: ['/images/oneStopStore.png',],
-  },
-  {
-    id: 5,
-    title: 'Recipe Search App',
-    description: 'Responsive application to search recipes',
-    codeLink: 'https://shafinaz2006.github.io/recipe_search/',
-    linkName: 'View Page',
-    img: ['/images/recipeSearchApp.png',],
+    img: ['takeABreak2.PNG',]
   },
   {
     id: 6,
@@ -71,7 +40,39 @@ export const projectData = [
     description: 'Interactive sudoku game with multiple difficulty levels.',
     codeLink: 'https://shafinaz2006.github.io/sudoku-easy/',
     linkName: 'View Page',
-    img: ['/images/sudoku.png',],
+    img: ['sudoku.png',],
+  },
+  {
+    id: 3,
+    title: 'Professional Webpage',
+    description: 'A professional webpage that is responsive for all devices (mobile, tablet and desktop).',
+    codeLink: 'https://faculty.tru.ca/jtomal/',
+    linkName: 'View Page',
+    img: ['webPage4.PNG',],
+  },
+  {
+    id: 5,
+    title: 'Recipe Search App',
+    description: 'Responsive application to search recipes',
+    codeLink: 'https://shafinaz2006.github.io/recipe_search/',
+    linkName: 'View Page',
+    img: ['recipeSearchApp.png',],
+  },
+  {
+    id: 4,
+    title: 'One Stop Shop',
+    description: 'Online store for shopping',
+    codeLink: 'https://shafinaz2006.github.io/one-stop-shop/',
+    linkName: 'View Page',
+    img: ['oneStopStore.png',],
+  },
+  {
+    id: 1,
+    title: 'OPEN HOUSE',
+    description: 'OPEN HOUSE is a platform for home buyers, sellers and professionals related to the real estate industry.',
+    codeLink: 'https://github.com/shafinaz2006/shafinaz-open-house-app',
+    linkName: 'View Code',
+    img: ['openhouse6.PNG',]
   },
 ]
 

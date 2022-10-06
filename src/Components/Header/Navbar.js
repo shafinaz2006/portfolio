@@ -18,7 +18,6 @@ const Navbar = () => {
         <a className='nav__link' onClick={handleMenuClick} href='/#projects'> Projects </a>
         <a className='nav__link' onClick={handleMenuClick} href='/#education'> Education </a>
         <a className='nav__link' onClick={handleMenuClick} href={resume} target='_blank' rel="noreferrer"> Resume </a>
-        <a className='nav__link' onClick={handleMenuClick} href='/#contact'> Contact</a>
       </div>
     </nav>
   )
