@@ -16,11 +16,15 @@ function Intro(){
       <div className='info'>
         <img className='info__pic' src={profilePic} alt='profile pic'/>
         <div className='info__right'>
-          <p className='info__text'>Hello!! I'm Shafinaz Shafique and work as a Front end developer at Zemind Gaming Studio in Toronto.</p>
+          <p className='info__text'>Hello!! I'm Shafinaz Shafique and I'm a Front end developer at ZeMind Gaming Studio in Toronto.</p>
           <p className='info__text'>
-            I used React for most of the projects. For a project with AWS and F1, I learned THREE.js which is a JavaScript Library
-            used to create and display animated 3D graphics in a web browser. I'm currently working on a project that is 
-            using lit.html.
+            For most of the projects, I used React as the JavaScript User Interface building library. But in a recent project with AWS and F1, 
+            I was challenged to implement the app in THREE.js 
+            which is a Library to create and display animated 3D graphics in a web browser. The process of learning and experimenting Three.js was absolutely 
+            interesting and exciting. 
+          </p>
+          <p>
+            I'm currently on an adventure with lit.html for a project with Google Chromobook.
           </p>
           <p className='info__text'>Some of the projects that I've worked on are: 
             <a href='https://toyotajoyride.com' target='_blank' rel='noreferrer'>Toyota</a>, 
