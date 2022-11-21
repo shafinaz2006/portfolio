@@ -39,6 +39,13 @@
   .project{
     width: 30%;
   }
+  .project p {
+    height: 5rem;
+  }
+  .project img {
+    height: 40rem;
+    object-fit: contain;
+  }
   .project__pic{
     width: 80%;
     margin-top: 2rem;
