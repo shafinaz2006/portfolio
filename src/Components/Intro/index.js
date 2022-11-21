@@ -31,6 +31,7 @@ function Intro(){
             <a href='https://vwid4virtualdrive.com' target='_blank' rel='noreferrer'>VW</a>,
             <a href='https://www.youtube.com/watch?v=KLR8YWqamPo&t=1s' target='_blank' rel='noreferrer'>Hulu</a>,
             <a href='https://www.usopenhospitality.com/la' target='_blank' rel='noreferrer'>USGA Hospitality</a>,
+            <a href='https://chromebookgaminghub.com/' target='_blank' rel='noreferrer'>Google Chromebook gaming hub</a>, 
           </p>
           {infoText.map((info, i) => <p key={i} className='info__text'>{info}</p>)}
         </div>
