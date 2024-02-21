@@ -7,12 +7,6 @@ export const infoText = [
 
 export const educationData = [
   {
-    id: 1,
-    title:'BrainStation',
-    desc: 'Diploma in Web Development',
-    date: 'Jan 2021 – Apr 2021'
-  },
-  {
     id: 2,
     title:'University of Toronto',
     desc: 'M.Engg, Electrical & Computer Engineering',
