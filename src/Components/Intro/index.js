@@ -24,7 +24,8 @@ function Intro(){
             interesting and exciting. 
           </p>
           <p>
-            I'm currently on an adventure with lit.html for a project with Google Chromobook.
+            I have been working on CMS for different projects. All the CMS apps contain lots of forms and there are many edge cases need to be considered. Continuously learning MaterialUI,
+            yup and formik for form validations.
           </p>
           <p className='info__text'>Some of the projects that I've worked on are: 
             <a href='https://toyotajoyride.com' target='_blank' rel='noreferrer'>Toyota</a>, 
@@ -32,6 +33,11 @@ function Intro(){
             <a href='https://www.youtube.com/watch?v=KLR8YWqamPo&t=1s' target='_blank' rel='noreferrer'>Hulu</a>,
             <a href='https://www.usopenhospitality.com/la' target='_blank' rel='noreferrer'>USGA Hospitality</a>,
             <a href='https://chromebookgaminghub.com/' target='_blank' rel='noreferrer'>Google Chromebook gaming hub</a>, 
+          </p>
+          <p className='info__text'>CMS projects: 
+            <a href='https://play.google.com/store/apps/details?id=com.gooseeyes.newapp&pli=1' target='_blank' rel='noreferrer'>GooseEyes</a>, 
+            <a href='https://www.rawmengame.com/' target='_blank' rel='noreferrer'>Rawmen</a>, 
+            <a href='https://play.google.com/store/apps/details?id=studio.biom.app' target='_blank' rel='noreferrer'>Biom</a>,
           </p>
           {infoText.map((info, i) => <p key={i} className='info__text'>{info}</p>)}
         </div>
