@@ -25,7 +25,7 @@ function Intro(){
           </p>
           <p>
             I have been working on CMS for different projects. All the CMS apps contain lots of forms and there are many edge cases need to be considered. Continuously learning MaterialUI,
-            yup and formik for form validations.
+            Yup and Formik for form validations.
           </p>
           <p className='info__text'>Some of the projects that I've worked on are: 
             <a href='https://toyotajoyride.com' target='_blank' rel='noreferrer'>Toyota</a>, 
