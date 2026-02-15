@@ -3,6 +3,7 @@ import Footer from './Components/Footer';
 import Intro from './Components/Intro';
 import Projects from './Components/Projects';
 import Education from './Components/Education';
+import Experience from './Components/Experience';
 import { useEffect } from 'react';
 import { addAnalytics } from './data/gaHelper';
 import './App.css';
@@ -16,6 +17,7 @@ function App() {
     <div className="App" id="App">
       <Header />
       <Intro />
+      <Experience/>
       <Projects />
       <Education />
       <Footer />

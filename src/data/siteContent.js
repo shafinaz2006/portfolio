@@ -5,6 +5,21 @@ export const infoText = [
   'Over the years, I learned that perseverance is a great element for success. Now my motto is, while working on a problem, if one approach doesn\'t work, that means I have another ninety-nines to try!!!'
 ];
 
+export const experienceData = [
+  {
+    id: 2,
+    title:'University of Toronto',
+    desc: 'M.Engg, Electrical & Computer Engineering',
+    date: 'Jan 2015 – Jun 2016'
+  },
+  {
+    id: 3,
+    title:'Bangladesh University of Engineering & Technology',
+    desc: 'B.Sc.Engg, Electrical & Electronic Engineering',
+    date: 'Apr 2002 – Jun 2007'
+  }
+];
+
 export const educationData = [
   {
     id: 2,

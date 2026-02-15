@@ -10,15 +10,16 @@ function Intro(){
       <Heading heading='Shafinaz Shafique' />
       <h3 className='intro__title'>Front end Developer</h3>
       <h3 className='intro__title'>
-        <a href='https://www.zemind.ca/#about' target='_blank' rel='noreferrer'>ZeMind Gaming studio</a>
+        <a href='https://www.nrttech.com/' target='_blank' rel='noreferrer'>NRT Technology Copr.</a>
       </h3>
       <h3 className='intro__title'>Toronto, ON</h3>
       <div className='info'>
         <img className='info__pic' src={profilePic} alt='profile pic'/>
         <div className='info__right'>
-          <p className='info__text'>Hello!! I'm Shafinaz Shafique and I'm a Front end developer at NRT Technology Corp. in Toronto.</p>
+          <p className='info__text'>Hello!! I'm Shafinaz Shafique and I'm a Mobile Console Developer (Front end developer) at NRT Technology Corp. in Toronto.</p>
+          <p className='info__text'>I'm now learning a new javascript framework - myt which is an in house FW to build UIs.</p>
           <p className='info__text'>
-            For most of the projects, I used React as the JavaScript User Interface building library. But in a recent project with AWS and F1, 
+            For most of the projects at my previous work place - ZeMind Gaming Studio, I used React as the JavaScript User Interface building library. But in a recent project with AWS and F1, 
             I was challenged to implement the app in THREE.js 
             which is a Library to create and display animated 3D graphics in a web browser. The process of learning and experimenting Three.js was absolutely 
             interesting and exciting. 
