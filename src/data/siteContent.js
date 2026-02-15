@@ -3,7 +3,7 @@ export const introText = [
   'Hello!! I\'m Shafinaz Shafique, a Mobile Console Developer (Front-End Developer) at NRT Technology Corp. in Toronto.',
   'Currently, I\'m learning a new JavaScript framework called myt, an in-house framework used to build user interfaces. Alongside that, I\'m actively designing and implementing comprehensive QUnit test cases to validate UI behavior and ensure high-quality, reliable applications.',
   'In my previous role at ZeMind Gaming Studio, I primarily worked with React to build dynamic and responsive user interfaces. One particularly exciting challenge was collaborating on a project with AWS and F1, where I implemented the application using Three.js — a JavaScript library for creating and displaying animated 3D graphics in the browser. Learning and experimenting with Three.js was both challenging and incredibly rewarding.',
-  'I also worked on CMS for different projects. All the CMS apps contain lots of forms and there are many edge cases need to be considered. Continuously learning MaterialUI, Yup and Formik for form validations.'
+  'I also worked on CMS for different projects. All the CMS apps contain lots of forms and there are many edge cases need to be considered. Enjoyed learning MaterialUI, Yup and Formik for form validations.'
 ];
 
 export const infoText = [
