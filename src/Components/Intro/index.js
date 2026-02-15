@@ -1,33 +1,22 @@
-import React from 'react';
 import profilePic from '../../Assets/images/profile2.jpg';
 import {infoText} from '../../data/siteContent';
+import {introText} from '../../data/siteContent';
 import Heading from '../Heading.js';
 import './style.css';
 
-function Intro(){  
+const Intro= () => {  
   return(
     <section className='section intro'>
       <Heading heading='Shafinaz Shafique' />
-      <h3 className='intro__title'>Front end Developer</h3>
+      <h3 className='intro__title'>Front End Developer</h3>
       <h3 className='intro__title'>
-        <a href='https://www.nrttech.com/' target='_blank' rel='noreferrer'>NRT Technology Copr.</a>
+        <a href='https://www.nrttech.com/' target='_blank' rel='noreferrer'>NRT Technology Corp.</a>
       </h3>
       <h3 className='intro__title'>Toronto, ON</h3>
       <div className='info'>
         <img className='info__pic' src={profilePic} alt='profile pic'/>
         <div className='info__right'>
-          <p className='info__text'>Hello!! I'm Shafinaz Shafique and I'm a Mobile Console Developer (Front end developer) at NRT Technology Corp. in Toronto.</p>
-          <p className='info__text'>I'm now learning a new javascript framework - myt which is an in house FW to build UIs.</p>
-          <p className='info__text'>
-            For most of the projects at my previous work place - ZeMind Gaming Studio, I used React as the JavaScript User Interface building library. But in a recent project with AWS and F1, 
-            I was challenged to implement the app in THREE.js 
-            which is a Library to create and display animated 3D graphics in a web browser. The process of learning and experimenting Three.js was absolutely 
-            interesting and exciting. 
-          </p>
-          <p>
-            I have been working on CMS for different projects. All the CMS apps contain lots of forms and there are many edge cases need to be considered. Continuously learning MaterialUI,
-            Yup and Formik for form validations.
-          </p>
+          {introText.map((intro, i) => <p key={i} className='info__text'>{intro}</p>)}
           <p className='info__text'>Some of the projects that I've worked on are: 
             <a href='https://toyotajoyride.com' target='_blank' rel='noreferrer'>Toyota</a>, 
             <a href='https://vwid4virtualdrive.com' target='_blank' rel='noreferrer'>VW</a>,

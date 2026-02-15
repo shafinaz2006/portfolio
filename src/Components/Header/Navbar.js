@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import menu_icon from '../../Assets/icons/menu_white.svg';
-import resume from '../../Assets/Shafinaz_Shafique.pdf';
+import resume from '../../Assets/Shafinaz_resume_2026.pdf';
 import './style.css';
 
 const Navbar = () => {
@@ -15,6 +15,7 @@ const Navbar = () => {
         <img className='nav__menu' src={menu_icon} alt='menu' onClick={displayMenu} />
       </div>
       <div className={`${mobileMenu? 'nav__mobile': 'nav__tablet'}`}>
+        <a className='nav__link' onClick={handleMenuClick} href='/#experience'> Experience </a>
         <a className='nav__link' onClick={handleMenuClick} href='/#projects'> Projects </a>
         <a className='nav__link' onClick={handleMenuClick} href='/#education'> Education </a>
         <a className='nav__link' onClick={handleMenuClick} href={resume} target='_blank' rel="noreferrer"> Resume </a>
