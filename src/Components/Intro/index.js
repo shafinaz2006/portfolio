@@ -16,7 +16,7 @@ function Intro(){
       <div className='info'>
         <img className='info__pic' src={profilePic} alt='profile pic'/>
         <div className='info__right'>
-          <p className='info__text'>Hello!! I'm Shafinaz Shafique and I'm a Front end developer at ZeMind Gaming Studio in Toronto.</p>
+          <p className='info__text'>Hello!! I'm Shafinaz Shafique and I'm a Front end developer at NRT Technology Corp. in Toronto.</p>
           <p className='info__text'>
             For most of the projects, I used React as the JavaScript User Interface building library. But in a recent project with AWS and F1, 
             I was challenged to implement the app in THREE.js 
